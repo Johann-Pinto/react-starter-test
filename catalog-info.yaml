@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sample-react"
+  description: "React Template"
+  annotations:
+    github.com/project-slug: johann-pinto/react-starter-test
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/johann-pinto"
